@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Movies</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="movies.css">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">MediaFusion</a></li>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+          <div class="items">
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+          </div>
+          <li class="search-icon">
+            <input type="search" placeholder="Search...">
+            <label class="icon">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+
+    </header>
+
+    <main>
+
+      <h1>Most popular movies:</h1>
+
+    <div class="popularMovies">
+
+      <div class="hp"><a href="harry.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/harry-potter-and-the-sorcerers-stone-resized-opt.jpg?itok=wh-Sv769" alt="">
+        <div class="title">
+          <p class="tit">Harry Potter and the Sorcerer's Stone</p>
+          <br>
+          <p>2001</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt0241527/">here</a></p>
+        </div>
+      </div>
+      <div class="twilight"><a href="twilight.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/twilight-poster.jpg?itok=NDgGlm_h" alt="">
+        <div class="title">
+          <p class="tit">Twilight</p>
+          <br>
+          <p>2009</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="titanic"><a href="titanic.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/titanic-min.jpg?itok=pk5cLSZZ" alt="">
+        <div class="title">
+          <p class="tit">Titanic</p>
+          <br>
+          <p>1997</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt0120338/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="GU"><a href="grownups.html">
+        <img src="https://i.pinimg.com/736x/cb/66/10/cb661097509397a6fe973bb798feb3d5.jpg" alt="">
+        <div class="title">
+          <p class="tit">Maze Runner</p>
+          <br>
+          <p>2014</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1790864/?ref_=tt_mv_close">here</a></p>
+        </div>
+      </div>
+
+      <div class="up"><a href="up.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/up-pi.jpg?itok=qWPs4jB4" alt="">
+        <div class="title">
+          <p class="tit">Up</p>
+          <br>
+          <p>2009</p><br>
+          </a>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1049413/?ref_=nv_sr_srsg_4">here</a></p>
+        </div>
+      </div>
+
+      <div class="ASV"><a href="asv.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/asilentvoicethemovie-movieposter.jpg?itok=PvfcFXlE" alt="">
+        <div class="title">
+          <p class="tit">A Silent Voice</p>
+          <br>
+          <p>2016</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt5323662/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="THOI"><a href="thehalf.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/the-half-of-it-movie-poster-image0.jpg?itok=iKNUG8_t" alt="">
+        <div class="title">
+          <p class="tit">The Half of It</p>
+          <br>
+          <p>2020</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt9683478/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="TP"><a href="pianist.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/the-pianist-poster.jpg?itok=hRCe0hPS" alt="">
+        <div class="title">
+          <p class="tit">The Pianist</p>
+          <br>
+          <p>2002</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt0253474/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>About</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">MediaFusion</a></li>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+          <div class="items">
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+          </div>
+          <li class="search-icon">
+            <input type="search" placeholder="Search...">
+            <label class="icon">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+
+    </header>
+
+    <main>
+
+      <h1>So... what is this about?</h1>
+
+      <p>Hello! My name is Sofia Moore, a student from St. Catherine’s Moorlands School here in Buenos Aires. I’m on Level 5, and this year it was our time for the Personal Project, part of the MYP. I decided to explore this topic because I’ve always been interested in reading, especially nowadays, and I think it would be interesting to try and show my classmates what reading is about and how they could start. In terms of the product itself, I created a website because I really like coding and programming, and I do pretty well at school in this subject, so I thought why not? This project is not completed, of course, because it would take me too long to finish completely; however, I made almost all of the main functions that it should have, along with some examples, so I think it will be easy for people to understand what I’m trying to communicate. Hope you like it!</p>
+
+      <div class="dibujo">
+        <img src="aboutDibujo.jpg" alt="">
+      </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+  </body>
+</html>

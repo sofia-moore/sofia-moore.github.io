@@ -1,0 +1,124 @@
+body{
+  background-color: #6BA292;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*movies*/
+
+.popularMovies{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(120px, auto);
+  padding: 70px;
+  padding-top: 30px;
+}
+
+.hp, .twilight, .titanic, .GU, .up, .ASV, .THOI, .TP, .BTTF{
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid black;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+}
+
+.popularMovies img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 90px;
+  overflow: hidden;
+  float: left;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.popularMovies p{
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 12px;
+
+}
+.title{
+  float: left;
+  margin-top: 16px;
+  margin-left: 4px;
+}
+
+.tit{
+  margin-bottom: 7px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.inf{
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.popularMovies a:hover{
+  color: grey;
+}
+
+/*tv*/
+
+.popularTV{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(120px, auto);
+  padding: 70px;
+  padding-top: 30px;
+}
+
+.friends, .LCDP, .greys, .TVD, .peaky, .BB, .AT, .GG{
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid black;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+}
+
+.popularTV img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 90px;
+  overflow: hidden;
+  float: left;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.popularTV p{
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 12px;
+
+}
+.title{
+  float: left;
+  margin-top: 16px;
+  margin-left: 4px;
+}
+
+.tit{
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.inf{
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.popularTV a:hover{
+  color: grey;
+}
+
+  .moreInfo{
+    text-decoration: none;
+  }

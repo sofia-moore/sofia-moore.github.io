@@ -1,0 +1,70 @@
+body{
+  background-color: white;
+}
+
+.genreTit{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.genreContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 250px;
+  grid-auto-columns: 200px;
+  grid-gap: 20px;
+  padding: 60px;
+  padding-top: 40px;
+  margin-top: 0px;
+}
+
+.action, .mystery, .fantasy, .drama, .romance, .comedy, .horror, .musical{
+  background-color: #DD614A;
+  border-radius: 8px;
+  font-size: 38px;
+  text-align: center;
+  border: 3px solid black;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+*/
+}
+
+.genreContainer a{
+  text-decoration: none;
+}
+
+.genreContainer a:hover{
+  font-weight: bold;
+}
+
+.genreContainer div:hover{
+  background-color: #cccccc;
+}
+
+.genreContainer p{
+  margin-top: 95px;
+}
+
+.action{
+  background-image: image();
+}
+
+@media screen and (max-width: 1130px) {
+  .genreContainer{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 879px){
+  .genreContainer{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 625px){
+  .genreContainer{
+    grid-template-columns: 1fr;
+  }
+  .genreTit{
+  }
+}

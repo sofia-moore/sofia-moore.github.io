@@ -1,0 +1,284 @@
+body{
+  background-color: #e4fde1;
+}
+
+.mainBox{
+  padding-left: 70px;
+  padding-right: 60px;
+  margin-top: 35px;
+}
+
+/* pelicula */
+
+.showBox{
+  float: left;
+  background-color: blue;
+  width: 35%;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 20px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.moreFriends a{
+  color: #002080;
+}
+
+.friendsFoto{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.titFriends{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.textoFriends{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.recs{
+  float: right;
+  width: 60%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/*texto*/
+
+.text{
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 520px;
+}
+
+.IYL{
+  margin-left: 130px;
+  float: left;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/*primera caja*/
+
+.honeyGirl{
+  align-items: center;
+  font-size: 24px;
+  padding: 6px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 3px solid black;
+  margin-bottom: 20px;
+}
+
+.infoHG, .buyHG{
+  background-color: #cccccc;
+  float: right;
+  font-size: 20px;
+  width: 110px;
+  padding: 10px;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+.infoHG a, .buyHG a{
+  text-decoration: none;
+}
+
+.infoHG{
+  margin-right: 40px;
+}
+
+.buyHG{
+  margin-right: 20px;
+}
+
+button:hover{
+  background-color: #8e8e8e;
+  font-weight: bold;
+}
+
+
+.infoBuy{
+  margin-top: 43px;
+}
+
+.checked{
+  color: orange;
+}
+
+.fotoHG{
+  margin: 10px;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  height: 140px;
+}
+
+.textoHG{
+  float: left;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.tituloHG{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*segunda caja*/
+
+.NOBHMTY{
+  align-items: center;
+  font-size: 24px;
+  padding: 6px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 3px solid black;
+  margin-bottom: 20px;
+}
+
+.infoNO, .buyNO{
+  background-color: #cccccc;
+  float: right;
+  font-size: 20px;
+  width: 110px;
+  padding: 10px;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+.infoNO a, .buyNO a{
+  text-decoration: none;
+}
+
+.infoNO{
+  margin-right: 40px;
+}
+
+.buyNO{
+  margin-right: 20px;
+}
+
+button:hover{
+  background-color: #9AAB89;
+  font-weight: bold;
+}
+
+
+.infoBuy{
+  margin-top: 43px;
+}
+
+.checked{
+  color: orange;
+}
+
+.fotoNO{
+  margin: 10px;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  height: 140px;
+}
+
+.textoNO{
+  float: left;
+  overflow: hidden;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.tituloNO{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*tercera caja*/
+
+.COMM{
+  align-items: center;
+  font-size: 24px;
+  padding: 6px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 3px solid black;
+  margin-bottom: 20px;
+}
+
+.infoCOMM, .buyCOMM{
+  background-color: #cccccc;
+  float: right;
+  font-size: 20px;
+  width: 110px;
+  padding: 10px;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+.infoCOMM a, .buyCOMM a{
+  text-decoration: none;
+}
+
+.infoCOMM{
+  margin-right: 40px;
+}
+
+.buyCOMM{
+  margin-right: 20px;
+}
+
+button:hover{
+  background-color: #8e8e8e;
+  font-weight: bold;
+}
+
+
+.infoBuy{
+  margin-top: 43px;
+}
+
+.checked{
+  color: orange;
+}
+
+.fotoCOMM{
+  margin: 10px;
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  height: 140px;
+}
+
+.textoCOMM{
+  float: left;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.tituloCOMM{
+  font-weight: bold;
+  text-decoration: none;
+}

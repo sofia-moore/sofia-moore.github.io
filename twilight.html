@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Twilight</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recsStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">MediaFusion</a></li>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+          <div class="items">
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+          </div>
+          <li class="search-icon">
+            <input type="search" placeholder="Search...">
+            <label class="icon">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+
+    </header>
+
+
+    <main>
+      <div class="mainBox">
+
+        <div>
+          <h3 class="IYL">If you liked:</h3>
+          <h3 class="text">You might like:</h3>
+        </div>
+
+          <div class="showBox">
+
+            <img src="twilight.jpg" alt="Photo of the La Casa de Papel cast" class="friendsFoto">
+            <div class="textoFriends">
+              <h4 class="titFriends">Twilight</h4>
+              <p>When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.</p>
+              <hr size="3px" color="black" class="hr">
+              <p>Actors: Kristen Stewart, Robert Pattinson... <span class="moreFriends"><a href="https://www.imdb.com/title/tt0397442/?ref_=nv_sr_srsg_3">[more]</a></span></p>
+            </div>
+
+          </div>
+
+          <div class="recs">
+
+            <div class="honeyGirl">
+              <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432730315l/256683._SY475_.jpg" alt="" class="fotoHG">
+              <div class="textoHG">
+                <p class="tituloHG">City of Bones</p>
+                <p>Cassandra Clare</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span> <a href="https://www.goodreads.com/book/show/256683.City_of_Bones?ac=1&from_search=true&qid=vx9yy3MsU2&rank=1">Goodreads</a>
+              </div>
+              <div class="infoBuy">
+                <button type="button" name="info" class="infoHG"><a href="https://www.goodreads.com/book/show/256683.City_of_Bones?ac=1&from_search=true&qid=vx9yy3MsU2&rank=1" target="_blank" rel="noopener noreferrer">Info</a></button>
+                <button type="button" name="buy" class="buyHG" src=""><a href="https://www.bookdepository.com/City-of-Bones-Cassandra-Clare/9781416914280" target="_blank" rel="noopener noreferrer">Buy</a></button>
+              </div>
+
+            </div>
+
+            <div class="NOBHMTY">
+              <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361039443l/41865.jpg" alt="" class="fotoNO">
+              <div class="textoHG">
+                <p class="tituloNO">Twilight</p>
+                <p>Stephenie Meyer</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span> <a href="https://www.goodreads.com/book/show/41865.Twilight?ac=1&from_search=true&qid=ojUB9rj2k1&rank=1" target="_blank" rel="noopener noreferrer">Goodreads</a>
+              </div>
+              <div class="infoBuy">
+                <button type="button" name="info" class="infoNO"><a href="https://www.goodreads.com/book/show/41865.Twilight?ac=1&from_search=true&qid=ojUB9rj2k1&rank=1">Info</a></button>
+                <button type="button" name="buy" class="buyNO"><a href="https://www.goodreads.com/book_link/follow/882?book_id=41865&page_type=book&page_type_id=41865&source=dropdown&sub_page_type=show" target="_blank" rel="noopener noreferrer">Buy</a></button>
+              </div>
+              </div>
+
+              <div class="COMM">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358261334l/6339664.jpg" alt="" class="fotoCOMM">
+                <div class="textoNO">
+                  <p class="tituloCOMM">Hush, Hush</p>
+                  <p>Becca Fitzpatrick</p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span> <a href="https://www.goodreads.com/book/show/6339664-hush-hush">Goodreads</a>
+                </div>
+                <div class="infoBuy">
+                  <button type="button" name="info" class="infoCOMM"><a href="https://www.goodreads.com/book/show/6339664-hush-hush" target="_blank" rel="noopener noreferrer">Info</a></button>
+
+                  <button type="button" name="buy" class="buyCOMM"><a href="https://www.bookdepository.com/Hush-Hush-Becca-Fitzpatrick/9781416989417" target="_blank" rel="noopener noreferrer">Buy</a></button>
+                </div>
+
+          </div>
+
+      </div>
+
+    </main>
+
+    <footer>
+      <script src="buscar.js"></script>
+    </footer>
+
+
+    </body>
+    </html>

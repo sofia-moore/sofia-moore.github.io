@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Genres</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesgenre.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">MediaFusion</a></li>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+          <div class="items">
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+          </div>
+          <li class="search-icon">
+            <input type="search" placeholder="Search...">
+            <label class="icon">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+
+    </header>
+
+    <main>
+
+    <h1 class="genreTit">Genres</h1>
+
+    <div class="genreContainer">
+
+      <div class="action"><a href="comingSoon.html">
+        <p>Action</p>
+      </a></div>
+
+      <div class="mystery"><a href="comingSoon.html">
+        <p>Mystery</p>
+      </a></div>
+
+      <div class="fantasy"><a href="comingSoon.html">
+        <p>Fantasy</p>
+      </a></div>
+
+      <div class="drama"><a href="comingSoon.html">
+        <p>Drama</p>
+      </a></div>
+
+      <div class="romance"><a href="comingSoon.html">
+        <p>Romance</p>
+      </a></div>
+
+      <div class="comedy"><a href="comingSoon.html">
+        <p>Comedy</p>
+      </a></div>
+
+      <div class="horror"><a href="comingSoon.html">
+        <p>Horror</p>
+      </a></div>
+
+      <div class="musical"><a href="comingSoon.html">
+        <p>Musical</p>
+      </a></div>
+
+    </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>TV Shows</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="movies.css">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">MediaFusion</a></li>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+          <div class="items">
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+          </div>
+          <li class="search-icon">
+            <input type="search" placeholder="Search...">
+            <label class="icon">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+
+    </header>
+
+    <main>
+
+      <h1>Most popular TV shows:</h1>
+
+    <div class="popularTV">
+
+      <div class="friends"><a href="friends.html" class="moreInfo">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/friends-poster-big-with-words-min.jpg?itok=aq7ZyWk0" alt="">
+        <div class="title">
+          <p class="tit">Friends</p>
+          <br>
+          <p>1994 - 2004</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt0108778/?ref_=ttfc_fc_tt">here</a></p>
+        </div>
+      </div>
+      <div class="LCDP"><a href="lcdp.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-movie/moneyheistthephenomenon-movie-poster.jpg?itok=GMrXwKQT" alt="">
+        <div class="title">
+          <p class="tit">La Casa De Papel</p>
+          <br>
+          <p>- 2017</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt6468322/">here</a></p>
+        </div>
+      </div>
+
+      <div class="greys"><a href="greys.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/greys-anatomy-poster.jpg?itok=eJtys5oM" alt="">
+        <div class="title">
+          <p class="tit">Grey's Anatomy</p>
+          <br>
+          <p>- 2005</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="TVD"><a href="tvd.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/the-vampire-diaries-poster.jpg?itok=-piIGlc8" alt="">
+        <div class="title">
+          <p class="tit">The Vampire Diaries</p>
+          <br>
+          <p>2009 - 2017</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="peaky"><a href="peaky.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/peaky-blinders-poster.jpg?itok=nSy8u0FK" alt="">
+        <div class="title">
+          <p class="tit">Peaky Blinders</p>
+          <br>
+          <p>- 2013</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="BB"><a href="breaking.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/breaking-bad-poster.jpg?itok=XWa2InyC" alt="">
+        <div class="title">
+          <p class="tit">Breaking Bad</p>
+          <br>
+          <p>2008 - 2013</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="AT"><a href="adventure.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/adventure-time-poster-opt.jpg?itok=HRFx6cUk" alt="">
+        <div class="title">
+          <p class="tit">Adventure Time</p>
+          <br>
+          <p>2010 - 2018</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      <div class="GG"><a href="gossip.html">
+        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher/public/product-images/csm-tv/gossip-girl-poster-opt.jpg?itok=uuIbhoEB" alt="">
+        <div class="title">
+          <p class="tit">Gossip Girl</p>
+          <br>
+          <p>2007 - 2012</p>
+          </a>
+          <br>
+          <p class="inf">More info <a href="https://www.imdb.com/title/tt1099212/?ref_=nv_sr_srsg_0">here</a></p>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+  </body>
+</html>
