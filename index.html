@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">MediaFusion</a></li>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+          <div class="items">
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv.html">TV Shows</a></li>
+            <li><a href="about.html">About</a></li>
+          </div>
+          <li class="search-icon">
+            <input type="search" placeholder="Search...">
+            <label class="icon" onclick="buscar()">
+              <span class="fas fa-search"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+      </script>
+
+    </header>
+
+
+    <main>
+
+      <div class="mainSearch">
+        <h2 class="titSearch">Look for your favorite <span class="boldened">movie</span> or <span class="boldened">TV show</span> and we'll give you a <span class="boldened">book</span>...</h2>
+          <div class="cajita">
+            <input type="search" placeholder="Search..." class="cajitaAdentro" id="search">
+            <button id="boton" onclick="buscar()">Search</button>
+
+          </div>
+      </div>
+
+      <br>
+
+      <div class="genresIndex">
+
+        <h3 class="titGenre">Most popular genres</h3>
+
+        <div class="drama">
+          <p><a href="comingSoon.html">Drama</a></p>
+        </div>
+
+        <div class="mystery">
+          <p><a href="comingSoon.html">Mystery</a></p>
+        </div>
+
+        <div class="romance">
+          <p><a href="comingSoon.html">Romance</a></p>
+        </div>
+
+        <div class="comedy">
+          <p><a href="comingSoon.html">Comedy</a></p>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer>
+      <script src="buscar.js"></script>
+    </footer>
+
+
+    </body>
+    </html>
